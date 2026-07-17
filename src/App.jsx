@@ -1,10 +1,12 @@
-import "./index.css"
+import Navbar from "#components/Navbar"
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Welcome to My MacFolio</h1>
-    </div>
+    <main>
+      <div>
+        <Navbar />
+      </div>
+    </main>
   )
 }
 export default App
