@@ -102,7 +102,11 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"]
+    items: ["ReactJS", "NextJS", "TypeScript", "CI/CD"]
+  },
+  {
+    category: "Backend",
+    items: ["NodeJS", "Express", "NextJS", "GraphQL", "APIs"]
   },
   {
     category: "Mobile",
@@ -110,19 +114,32 @@ const techStack = [
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"]
+    items: ["TailwindCSS", "SASS", "Flex", "Shadcn"]
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"]
+    category: "Animation",
+    items: ["GSAP", "Framer Motion", "CSS Animations"]
   },
+
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"]
+    items: ["MongoDB", "PostgreSQL", "MySQL", "ORMs"]
+  },
+  {
+    category: "WordPress",
+    items: ["Gutenberg", "PHP", "MultiSites", "ACF/CPT"]
+  },
+  {
+    category: "Accessability",
+    items: ["WCAG", "ADA", "Alt Text", "Semantic HTML"]
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"]
+    items: ["Git", "GitHub", "CodeRabbit", "Ajile Methods"]
+  },
+  {
+    category: "eCommerce",
+    items: ["Stripe", "WooCommerce", "PayPal"]
   }
 ]
 
